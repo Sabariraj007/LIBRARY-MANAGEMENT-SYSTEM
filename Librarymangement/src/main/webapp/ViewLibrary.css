@@ -1,0 +1,33 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #343a40; 
+    color: #fff; 
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+tbody tr:hover {
+    background-color: #ddd; 
+}
+
