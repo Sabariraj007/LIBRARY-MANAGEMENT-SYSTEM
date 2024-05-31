@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Property</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Post Property</h2>
+    <form id="postPropertyForm" action="postProperty" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place" required>
+        
+        <label for="area">Area (sq ft):</label>
+        <input type="number" id="area" name="area" required>
+        
+        <label for="bedrooms">Number of Bedrooms:</label>
+        <input type="number" id="bedrooms" name="bedrooms" required>
+        
+        <label for="bathrooms">Number of Bathrooms:</label>
+        <input type="number" id="bathrooms" name="bathrooms" required>
+        
+        <label for="nearbyHospitals">Nearby Hospitals:</label>
+        <input type="text" id="nearbyHospitals" name="nearbyHospitals">
+        
+        <label for="nearbyColleges">Nearby Colleges:</label>
+        <input type="text" id="nearbyColleges" name="nearbyColleges">
+        
+        <button type="submit">Post Property</button>
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
